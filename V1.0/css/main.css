@@ -62,15 +62,11 @@ body {
 
 h1 {
     text-align: center;
-    font-family: 'Open Sans', sans-serif;  
-    margin-top: 10px;
-    margin-bottom: 0px; 
+    font-family: 'Open Sans', sans-serif;   
 }
 
 h3 {
-    text-align: center;
     font-family: 'Open Sans', sans-serif; 
-    margin: 0px;
 }
 
 a {
@@ -83,16 +79,28 @@ li {
 }
 
 .links {
+}
+
+.link1 {
     font-family: 'Open Sans', sans-serif;
     float: left;
+    padding-left: 40%;
+}
 
+.link2 {
+    font-family: 'Open Sans', sans-serif;
+    float: right;
+    padding-right: 40%;
 }
 
 .jumbotron {
-    margin-top: 10%;
-    margin-bottom: 10%; 
+    padding-top: 5%;
+    padding-bottom: 10%; 
     background-color: #0066FF;
+    text-align: center;
+    height: 100px;
 }
+
 
 .aboutMe {
     text-align: center;
@@ -135,37 +143,36 @@ li {
 }
 
 .funFacts1 {
-    width: 100px;
     float: left; 
     width: -moz-calc(100%/3);
     width: -webkit-calc(100%/3);
     width: -o-calc(100%/3);
     width: calc(100%/3);
+    padding-bottom: 20%;
     background-color: #0099FF;
-    border-top-width: 10%;
     text-align: center;
 }
 
 .funFacts2 {
-    width: 100px;
     float: left; 
     width: -moz-calc(100%/3);
     width: -webkit-calc(100%/3);
     width: -o-calc(100%/3);
     width: calc(100%/3);
+    padding-bottom: 20%;
     background-color: #00CCFF;
-    border-top-width: 10%;
+    text-align: center;
 }
 
 .funFacts3 {
-    width: 100px;
     float: left; 
     width: -moz-calc(100%/3);
     width: -webkit-calc(100%/3);
     width: -o-calc(100%/3);
     width: calc(100%/3);
+    padding-bottom: 20%;
     background-color: #00FFFF;
-    border-top-width: 10%;
+    text-align: center;
 }
 
 
